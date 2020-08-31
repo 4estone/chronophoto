@@ -17,9 +17,9 @@ La création d'une chronophotographie nécessite la superposition des différent
 #### Première approche : en ligne de commande
 
 ``` shell
-ffmpeg -i P1010466Trim.mp4 -qscale:v 2 C:\Temp\images\image-%04d.jpeg
+ffmpeg -i P1010466Trim.mp4 -qscale:v 2 image-%04d.jpeg
 ```
-
+Fusion de 2 images
 ``` shell
 magick convert image-0001.jpeg image-0002.jpeg -evaluate-sequence Min result.jpg
 ```
