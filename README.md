@@ -11,3 +11,4 @@ Il s'agit donc de transformer les vidèos en autant d'images que nécessaires. L
 La création d'une chronophotographie nécessite la superposition des différentes images issues de la vidéo. La solution retenue est la librairie ImageMagick.
 * https://imagemagick.org/
 * https://imagemagick.org/script/convert.php
+* https://imagemagick.org/script/command-line-options.php#evaluate-sequence
