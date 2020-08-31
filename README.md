@@ -15,6 +15,6 @@ La création d'une chronophotographie nécessite la superposition des différent
 
 #### Première approche : en ligne de commande
 
-'''shell
+''' shell
 magick convert image-0001.jpeg image-0002.jpeg -evaluate-sequence Min result.jpg
 
