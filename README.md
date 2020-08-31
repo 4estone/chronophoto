@@ -23,3 +23,6 @@ ffmpeg -i P1010466Trim.mp4 -qscale:v 2 image-%04d.jpeg
 ``` shell
 magick convert image-0001.jpeg image-0002.jpeg -evaluate-sequence Min result.jpg
 ```
+### Le résultat
+
+https://www.flickr.com/photos/149587191@N04/albums/72157714930013542
